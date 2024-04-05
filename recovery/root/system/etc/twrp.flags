@@ -37,4 +37,4 @@ odm		/odm		ext4						wait,logical,first_stage_mount
 
 # Removable storage
 /external_sd	vfat		/dev/block/mmcblk0p1	/dev/block/mmcblk0	flags=storage;wipeingui;removable
-/usb-otg	auto		/dev/block/sdf1	/dev/block/sdf			flags=display="USB-OTG";storage;wipeingui;removable
+/usb_otg	auto		/dev/block/sdf1	/dev/block/sdf			flags=display="USB-OTG";storage;wipeingui;removable
